@@ -1,0 +1,134 @@
+/*-------------------- Body part -----------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ----------------------------------First Section -------------------------------------*/
+header{
+    color: #3A3A3A;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.container{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.Journey{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.Jounrney-details{
+    margin-right: 25px;
+}
+
+
+.Tittle{
+    color: #3A3A3A;
+    font-size: 45px;
+}
+
+.tittle-second{
+    color: #3A3A3A;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* ---------------------------------------Buttom work Done----------------------------- */
+button{
+    background-color: #E02C6D;
+    border: none;
+    color: #FFFFFF;
+    font-size: 17px ;
+    width: 196px;
+    height: 44px;
+    padding: 8px;
+    border-radius: 20px;
+    
+}
+
+/* ----------------------------------Section Section -------------------------------------*/
+
+
+#container-second{
+    margin-left: 100px;
+    margin-right: 140px;
+    
+    
+    
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column: 12px;
+}
+
+.collertion-details{
+    
+    padding: 15px;
+    margin: 15px 25px ;
+    text-align: justify;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow:  7px 8px 11px rgb(194, 190, 190) ;
+    
+    
+}
+
+.tripod{
+    color: #18191F;
+    font-size: 28px;
+
+}
+
+b{
+    color: #787885;
+    font-size: 14px;
+}
+
+.fa-star{
+    color: goldenrod;
+}
+
+/*---------------------------------------- third section------------------------------- */
+a{
+    text-decoration: none;
+    color: #E02C6DDE;
+   margin-right: 120px;
+   font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
