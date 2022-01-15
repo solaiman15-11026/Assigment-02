@@ -230,7 +230,7 @@ footer{
  height: 260px;
  border-radius: 2px;
  cursor: no-drop;
- width: 100%;
+
 
  
 }
@@ -286,6 +286,7 @@ hr{
 /*---- mobile device---- */
 
 @media only screen and (max-width:687px)  {
+
     .container, .container-second, .container-three {
         width:100%
     }
@@ -294,15 +295,19 @@ hr{
     
     grid-template-columns:repeat(1, 1fr);
  }
+
    .Journey , .collection  {
      flex-direction: column;
  }
+
  .order{
      justify-content: space-evenly;
  }
+ 
 
 }
- /*---------------- tablet device--------- */
+
+/*---------------- tablet device--------- */
 
  @media only screen and (min-width:688px) and (max-width:992px){
      
