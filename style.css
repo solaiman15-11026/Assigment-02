@@ -27,9 +27,11 @@ header{
 }
 .camera{
     transition: transform 300ms ease-in-out;
+    
 }
 .camera:hover{
 transform: scale(1.1);
+
 
 }
 
@@ -45,7 +47,7 @@ transform: scale(1.1);
 }
 
 /* ---------------------------------------Buttom work Done----------------------------- */
-button{
+.cilck{
     background-color: #E02C6D;
     border: none;
     color: #FFFFFF;
@@ -121,7 +123,31 @@ a{
 }
 
 /*---------------------------------------- third section------------------------------- */
+.tittle-third{
+    text-align: center;
+    font-size: 40px;
+    color: #3A3A3A;
+}
 
+.container-three{
+    margin-bottom: 40px;
+}
+.order{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.order-table{
+    border: 1px solid gold;
+    width: 40%;
+    overflow: hidden;
+}
+.address-out{
+    border: 1px solid gold;
+    width: 40%;
+    padding: 20px;
+}
 
 
 
@@ -174,6 +200,13 @@ footer:hover{
     color: #3e3eecbd;
 }
 
+hr{
+    border: 2px solid rgba(197, 18, 197, 0.521);
+    width: 400px;
+    margin-top: -22px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
 
 
 
