@@ -79,7 +79,7 @@ button:hover{
 .collection{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column: 12px;
+    
 }
 
 .collertion-details{
@@ -156,6 +156,7 @@ a{
     box-shadow:  7px 8px 11px rgb(194, 190, 190) ;
     background-image: linear-gradient(#fd297a88, #9424f0ad);
     transition: all 300ms ease-in-out;
+    color: #615959;
 }
 .order-table:hover{
     background-image: linear-gradient(#FD297A, #9424F0);
@@ -164,21 +165,59 @@ a{
 .address-out{
     width: 40%;
     overflow: hidden;
+    color: rgba(12, 11, 11, 0.76);
     padding: 15px;
     margin: 15px 25px ;
     border-radius: 10px;
     box-shadow:  7px 8px 11px rgb(194, 190, 190) ;
     background-image: linear-gradient(#eff54d70, #00ac6285);
+    transition: all 300ms ease-in-out;
+    
 }
 .address-out:hover{
     
     background-image: linear-gradient(#EFF54D, #00AC61);
-
+    color: #5d5fe2;
 }
 .fa-map-marked-alt{
     font-size: 100px;
     color: rgb(46, 113, 201);
 
+}
+.name{
+    width: 70%;
+    height: 23px;
+    
+}
+.name-1{
+    width: 77%;
+    height: 23px;
+}
+.name-2{
+    width: 67%;
+    height: 23px;
+}
+#select{
+    width: 100%;
+    height: 29px;
+
+}
+/* ----------------------------------------button-------------------------- */
+
+.done-1{
+    width: 25%;
+    height: 27px;
+    color: rgb(252, 252, 252);
+    background-color: #22cb5dde;
+    border-radius: 4px;
+    /* display: inline; */
+}
+.done-2{
+    width: 25%;
+    height: 27px;
+    color: rgb(252, 252, 252);
+    background-color: #2b3ee7e1;
+    border-radius: 4px;
 }
 
 
@@ -191,6 +230,7 @@ footer{
  height: 260px;
  border-radius: 2px;
  cursor: no-drop;
+ width: 100%;
 
  
 }
@@ -240,6 +280,45 @@ hr{
     margin-bottom: 30px;
 }
 
+
+/* --------------------------media query------------------------------------- */
+
+/*---- mobile device---- */
+
+@media only screen and (max-width:687px)  {
+    .container, .container-second, .container-three {
+        width:100%
+    }
+    .Journey , .collection , .order  {
+
+    
+    grid-template-columns:repeat(1, 1fr);
+ }
+   .Journey , .collection  {
+     flex-direction: column;
+ }
+ .order{
+     justify-content: space-evenly;
+ }
+
+}
+ /*---------------- tablet device--------- */
+
+ @media only screen and (min-width:688px) and (max-width:992px){
+     
+    .collection , .order{
+
+    
+    grid-template-columns:repeat(2, 1fr);
+ }
+ .Journey , .collection  {
+    flex-direction: column;
+}
+.collection{
+    justify-content: center;
+}
+     
+ }
 
 
 

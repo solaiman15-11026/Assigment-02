@@ -179,44 +179,60 @@
 
 
             <div class="order-table">
-                <h2 class="tabel-Tittle">FOR ONLINE ORDER </h2>
+                <h2 style="text-align: center;" class="tabel-Tittle">FOR ONLINE ORDER </h2>
                 <form action="">
-                    <p>Name:<input type="text" placeholder="Enter your name"></p>
-                    <p>Email:<input type="text" placeholder="Enter your Email"></p>
+                    <p>Full name: <input class="name-1" type="text" placeholder="Enter your name"></p>
+                    <p>Phone number: <input class="name" type="number" placeholder="+088********"></p>
+                    <p>Email address: <input class="name" type="text" placeholder="Enter your Email"></p>
+                    <p>Current address: <input class="name-2" type="text" placeholder="Address"></p>
+
+
                     <fieldset>
-                        <legend>Selet The pitha</legend>
-                        <p><label for="chitoy">
-                                <input type="radio" name="pitah" id="chitoy">chitoy
+                        <legend>Payment Method</legend>
+                        <p><label for="Bikash">
+                                <input type="radio" name="Payement" id="bikash">Bikash/Nagad
                             </label>
                         <p>
-                            <label for="vaja">
-                                <input type="radio" name="pitah" id="vaja">vaja
+                            <label for="card">
+                                <input type="radio" name="Payement" id="card">Card
                             </label>
                         </p>
                         <p>
-                            <label for="misti pitha">
-                                <input type="radio" name="pitah" id="misti pitha">Case-on-delivery
+                            <label for="Case-on-delivery">
+                                <input type="radio" name="Payement" id="Case-on-delivery">Case-on-delivery
                             </label>
                         </p>
                     </fieldset>
-                    <p>Text <br>
-                        <textarea name="" id="" cols="30" rows="10">
+                    <p>Select your item:<select id="select" name="item">
+                            <option class="Drone" value="Drone">Drone</option>
+                            <option value="Airpods">Airpods</option>
+                            <option value="Camera">Camera</option>
+                            <option value="Green Screen">Green Screen</option>
+                            <option value="Vlogging Camera">Vlogging Camera</option>
+                            <option value="Action Camera">Action Camera</option>
+                            <option value="Photoshoot set">Photoshoot set</option>
+                            <option value="Light Setup">Light Setup</option>
+                        </select>
+                    </p>
+
+                    <p>Anything More: <br>
+                        <textarea name="" id="" cols="70" rows="6">
 
                     </textarea>
                     </p>
 
                 </form>
-                <button type="submit">submit</button>
-                <button type="reset">reset</button>
+                <button class="done-1" type="submit">submit</button>
+                <button class="done-2" type="reset">reset</button>
 
             </div>
             <div class="address-out">
                 <p><i class="fas fa-map-marked-alt"></i></p>
                 <h2 style="color: blue;">OUR SHOWROOM ADDRESS / /</h2>
-                <p>Starbit® Influencer products <br>
-                    32 Brady Street #3, Danmondi, IA 5260 <br>
-                    t // 01732-801336 <br>
-                    f // 993.322.4500</p>
+                <p> <strong> Starbit® Influencer products <br>
+                        32 Brady Street #3, Danmondi, IA 5260 <br>
+                        t // 01732-801336 <br>
+                        f // 993.322.4500 </strong></p>
 
             </div>
         </div>
@@ -225,7 +241,7 @@
 
 
     <!-- ----------------------------------footer work------------------------ -->
-    <footer>
+    <footer class="foot-up">
         <div class="foot">
             <h2>Influencer products</h2>
             <p>copyright &copy; 2020 influencer products</p>
